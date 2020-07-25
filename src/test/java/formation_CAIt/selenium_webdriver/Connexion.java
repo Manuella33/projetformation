@@ -9,15 +9,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class Connexion {
-	private WebDriver driver;
-	private String baseUrl;
-	private boolean acceptNextAlert = true;
-	private StringBuffer verificationErrors = new StringBuffer();
+	private static WebDriver driver;
 
 	@BeforeClass(alwaysRun = true)
-	public void setUp() throws Exception {
+	public static void setUp() throws Exception {
 		System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\chromedriver.exe");
-		// ajout du chemin du driver
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
@@ -31,6 +27,10 @@ public class Connexion {
 		driver.findElement(By.name("txtPassword")).click();
 		driver.findElement(By.name("txtPassword")).sendKeys("Manel3388@");
 		driver.findElement(By.id("btnLogin")).click();
+	}
+	
+	public static WebDriver getDriver() {
+		return driver;
 	}
 
 }

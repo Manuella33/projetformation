@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<!-- 
+		Avant de lancer cette suite de tests, accéder a la base de données localhost 
+		Supprimer tous les Jobs titles dans la table ohrm_job_title 
+		Lancer dans l'onglet Sql la commande ALTER TABLE ohrm_job_title AUTO_INCREMENT = 1 -->
+		<classes>
+			<class name="formation_CAIt.selenium_webdriver.Connexion" />
+			<class
+				name="formation_CAIt.selenium_webdriver.jobtitle.CreerJobTitle" />
+			<class
+				name="formation_CAIt.selenium_webdriver.jobtitle.ModifierJobTitle" />
+			<class
+				name="formation_CAIt.selenium_webdriver.jobtitle.SupprimerJobTitle" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

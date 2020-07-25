@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+	<!-- Avant de lancer cette suite de tests, accéder à la base de données localhost 
+			Supprimer tous les Users sauf admin dans la table ohrm_user 
+			Supprimer tous les Jobs titles dans la table ohrm_job_title
+			Supprimer tous les Pay Grades dans la table ohrm_pay_grade
+			Lancer dans l'onglet Sql les commandes suivantes 
+			ALTER TABLE ohrm_user AUTO_INCREMENT = 2;
+			ALTER TABLE ohrm_job_title AUTO_INCREMENT = 1;
+			ALTER TABLE ohrm_pay_grade AUTO_INCREMENT = 1;
+			-->
+    
+		<classes>
+			<class name="formation_CAIt.selenium_webdriver.Connexion" />
+			
+			<class name="formation_CAIt.selenium_webdriver.user.CreerUser" />
+			<class
+				name="formation_CAIt.selenium_webdriver.user.ModifierUser" />
+			<class
+				name="formation_CAIt.selenium_webdriver.user.SupprimerUser" />
+				
+		<class name="formation_CAIt.selenium_webdriver.jobtitle.CreerJobTitle"/>
+      <class name="formation_CAIt.selenium_webdriver.jobtitle.ModifierJobTitle"/>
+      <class name="formation_CAIt.selenium_webdriver.jobtitle.SupprimerJobTitle"/>
+      
+      <class name="formation_CAIt.selenium_webdriver.paygrade.CreerPayGrade"/>
+      <class name="formation_CAIt.selenium_webdriver.paygrade.ModifierPayGrade"/>
+	  <class name="formation_CAIt.selenium_webdriver.paygrade.SupprimerPayGrade"/>
+		</classes>
+		
+		
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

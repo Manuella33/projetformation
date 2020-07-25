@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="formation_CAIt.selenium_webdriver.jobtitle.SupprimerJobTitle">
+      <class name="formation_CAIt.selenium_webdriver.user.CreerUser">
         <methods>
           <include name="setUp"/>
-          <include name="testSupprimerJt"/>
-          <include name="tearDown"/>
+          <include name="testAdduserAdmin"/>
         </methods>
-      </class> <!-- formation_CAIt.selenium_webdriver.jobtitle.SupprimerJobTitle -->
+      </class> <!-- formation_CAIt.selenium_webdriver.user.CreerUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

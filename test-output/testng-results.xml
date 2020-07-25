@@ -1,25 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57106" started-at="2020-07-24T00:17:46 CEST" finished-at="2020-07-24T00:18:43 CEST">
+  <suite name="Suite" duration-ms="122198" started-at="2020-07-25T21:29:12 CEST" finished-at="2020-07-25T21:31:14 CEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57106" started-at="2020-07-24T00:17:46 CEST" finished-at="2020-07-24T00:18:43 CEST">
-      <class name="formation_CAIt.selenium_webdriver.CreerUser">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:formation_CAIt.selenium_webdriver.CreerUser@64729b1e]" name="setUp" is-config="true" duration-ms="3352" started-at="2020-07-24T00:17:46 CEST" finished-at="2020-07-24T00:17:49 CEST">
+    <test name="Test" duration-ms="122198" started-at="2020-07-25T21:29:12 CEST" finished-at="2020-07-25T21:31:14 CEST">
+      <class name="formation_CAIt.selenium_webdriver.jobtitle.CreerJobTitle">
+        <test-method status="PASS" signature="testJobTitle()[pri:0, instance:formation_CAIt.selenium_webdriver.jobtitle.CreerJobTitle@56aac163]" name="testJobTitle" duration-ms="10513" started-at="2020-07-25T21:30:31 CEST" finished-at="2020-07-25T21:30:41 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJobTitle -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:formation_CAIt.selenium_webdriver.jobtitle.CreerJobTitle@56aac163]" name="setUp" is-config="true" duration-ms="0" started-at="2020-07-25T21:30:31 CEST" finished-at="2020-07-25T21:30:31 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAdduserAdmin()[pri:0, instance:formation_CAIt.selenium_webdriver.CreerUser@64729b1e]" name="testAdduserAdmin" duration-ms="52888" started-at="2020-07-24T00:17:49 CEST" finished-at="2020-07-24T00:18:42 CEST">
+      </class> <!-- formation_CAIt.selenium_webdriver.jobtitle.CreerJobTitle -->
+      <class name="formation_CAIt.selenium_webdriver.paygrade.SupprimerPayGrade">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:formation_CAIt.selenium_webdriver.paygrade.SupprimerPayGrade@27a5f880]" name="setUp" is-config="true" duration-ms="2" started-at="2020-07-25T21:31:10 CEST" finished-at="2020-07-25T21:31:10 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSupprimerPayGrade()[pri:0, instance:formation_CAIt.selenium_webdriver.paygrade.SupprimerPayGrade@27a5f880]" name="testSupprimerPayGrade" duration-ms="4542" started-at="2020-07-25T21:31:10 CEST" finished-at="2020-07-25T21:31:14 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSupprimerPayGrade -->
+      </class> <!-- formation_CAIt.selenium_webdriver.paygrade.SupprimerPayGrade -->
+      <class name="formation_CAIt.selenium_webdriver.jobtitle.SupprimerJobTitle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:formation_CAIt.selenium_webdriver.jobtitle.SupprimerJobTitle@5a1c0542]" name="setUp" is-config="true" duration-ms="0" started-at="2020-07-25T21:30:45 CEST" finished-at="2020-07-25T21:30:45 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSupprimerJt()[pri:0, instance:formation_CAIt.selenium_webdriver.jobtitle.SupprimerJobTitle@5a1c0542]" name="testSupprimerJt" duration-ms="3944" started-at="2020-07-25T21:30:45 CEST" finished-at="2020-07-25T21:30:49 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSupprimerJt -->
+      </class> <!-- formation_CAIt.selenium_webdriver.jobtitle.SupprimerJobTitle -->
+      <class name="formation_CAIt.selenium_webdriver.user.ModifierUser">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:formation_CAIt.selenium_webdriver.user.ModifierUser@6895a785]" name="setUp" is-config="true" duration-ms="0" started-at="2020-07-25T21:30:16 CEST" finished-at="2020-07-25T21:30:16 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testModifierUser()[pri:0, instance:formation_CAIt.selenium_webdriver.user.ModifierUser@6895a785]" name="testModifierUser" duration-ms="9159" started-at="2020-07-25T21:30:16 CEST" finished-at="2020-07-25T21:30:25 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModifierUser -->
+      </class> <!-- formation_CAIt.selenium_webdriver.user.ModifierUser -->
+      <class name="formation_CAIt.selenium_webdriver.paygrade.ModifierPayGrade">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:formation_CAIt.selenium_webdriver.paygrade.ModifierPayGrade@394e1a0f]" name="setUp" is-config="true" duration-ms="0" started-at="2020-07-25T21:31:05 CEST" finished-at="2020-07-25T21:31:05 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testModifierPayGrade()[pri:0, instance:formation_CAIt.selenium_webdriver.paygrade.ModifierPayGrade@394e1a0f]" name="testModifierPayGrade" duration-ms="4158" started-at="2020-07-25T21:31:05 CEST" finished-at="2020-07-25T21:31:10 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModifierPayGrade -->
+      </class> <!-- formation_CAIt.selenium_webdriver.paygrade.ModifierPayGrade -->
+      <class name="formation_CAIt.selenium_webdriver.user.SupprimerUser">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:formation_CAIt.selenium_webdriver.user.SupprimerUser@184f6be2]" name="setUp" is-config="true" duration-ms="0" started-at="2020-07-25T21:30:25 CEST" finished-at="2020-07-25T21:30:25 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSupprimerUser()[pri:0, instance:formation_CAIt.selenium_webdriver.user.SupprimerUser@184f6be2]" name="testSupprimerUser" duration-ms="5175" started-at="2020-07-25T21:30:25 CEST" finished-at="2020-07-25T21:30:31 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSupprimerUser -->
+      </class> <!-- formation_CAIt.selenium_webdriver.user.SupprimerUser -->
+      <class name="formation_CAIt.selenium_webdriver.jobtitle.ModifierJobTitle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:formation_CAIt.selenium_webdriver.jobtitle.ModifierJobTitle@1f7030a6]" name="setUp" is-config="true" duration-ms="0" started-at="2020-07-25T21:30:41 CEST" finished-at="2020-07-25T21:30:41 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testModifierTitle()[pri:0, instance:formation_CAIt.selenium_webdriver.jobtitle.ModifierJobTitle@1f7030a6]" name="testModifierTitle" duration-ms="4137" started-at="2020-07-25T21:30:41 CEST" finished-at="2020-07-25T21:30:45 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModifierTitle -->
+      </class> <!-- formation_CAIt.selenium_webdriver.jobtitle.ModifierJobTitle -->
+      <class name="formation_CAIt.selenium_webdriver.Connexion">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:formation_CAIt.selenium_webdriver.Connexion@10bbd20a]" name="setUp" is-config="true" duration-ms="3686" started-at="2020-07-25T21:29:12 CEST" finished-at="2020-07-25T21:29:16 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testConnexion()[pri:0, instance:formation_CAIt.selenium_webdriver.Connexion@10bbd20a]" name="testConnexion" duration-ms="6315" started-at="2020-07-25T21:29:16 CEST" finished-at="2020-07-25T21:29:22 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnexion -->
+      </class> <!-- formation_CAIt.selenium_webdriver.Connexion -->
+      <class name="formation_CAIt.selenium_webdriver.user.CreerUser">
+        <test-method status="PASS" signature="testAdduserAdmin()[pri:0, instance:formation_CAIt.selenium_webdriver.user.CreerUser@48503868]" name="testAdduserAdmin" duration-ms="36087" started-at="2020-07-25T21:29:22 CEST" finished-at="2020-07-25T21:29:58 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdduserAdmin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:formation_CAIt.selenium_webdriver.CreerUser@64729b1e]" name="tearDown" is-config="true" duration-ms="835" started-at="2020-07-24T00:18:42 CEST" finished-at="2020-07-24T00:18:43 CEST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:formation_CAIt.selenium_webdriver.user.CreerUser@48503868]" name="setUp" is-config="true" duration-ms="0" started-at="2020-07-25T21:29:22 CEST" finished-at="2020-07-25T21:29:22 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- formation_CAIt.selenium_webdriver.CreerUser -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAdduserEss()[pri:0, instance:formation_CAIt.selenium_webdriver.user.CreerUser@48503868]" name="testAdduserEss" duration-ms="18091" started-at="2020-07-25T21:29:58 CEST" finished-at="2020-07-25T21:30:16 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdduserEss -->
+      </class> <!-- formation_CAIt.selenium_webdriver.user.CreerUser -->
+      <class name="formation_CAIt.selenium_webdriver.paygrade.CreerPayGrade">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:formation_CAIt.selenium_webdriver.paygrade.CreerPayGrade@396f6598]" name="setUp" is-config="true" duration-ms="0" started-at="2020-07-25T21:30:49 CEST" finished-at="2020-07-25T21:30:49 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAjouterPaygrade()[pri:0, instance:formation_CAIt.selenium_webdriver.paygrade.CreerPayGrade@396f6598]" name="testAjouterPaygrade" duration-ms="16308" started-at="2020-07-25T21:30:49 CEST" finished-at="2020-07-25T21:31:05 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAjouterPaygrade -->
+      </class> <!-- formation_CAIt.selenium_webdriver.paygrade.CreerPayGrade -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
