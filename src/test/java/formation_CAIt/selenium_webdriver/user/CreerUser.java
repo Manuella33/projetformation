@@ -26,6 +26,7 @@ public class CreerUser {
 		for (int i = 1; i <= 4; i++) {
 
 			driver.findElement(By.id("btnAdd")).click();
+			Thread.sleep(1000);
 			driver.findElement(By.id("systemUser_userType")).click();
 			new Select(driver.findElement(By.id("systemUser_userType"))).selectByVisibleText("Admin");
 			driver.findElement(By.id("systemUser_userType")).click();
@@ -58,6 +59,7 @@ public class CreerUser {
 
 		for (int i = 5; i <= 6; i++) {
 			driver.findElement(By.id("btnAdd")).click();
+			Thread.sleep(1000);
 			driver.findElement(By.id("systemUser_userType")).click();
 			new Select(driver.findElement(By.id("systemUser_userType"))).selectByVisibleText("ESS");
 			driver.findElement(By.id("systemUser_userType")).click();
