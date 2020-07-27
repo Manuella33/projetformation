@@ -6,7 +6,10 @@
 			Supprimer tous les Users sauf admin dans la table ohrm_user 
 			Supprimer tous les Jobs titles dans la table ohrm_job_title
 			Supprimer tous les Pay Grades dans la table ohrm_pay_grade
-			Lancer dans l'onglet Sql les commandes suivantes 
+			Lancer dans l'onglet Sql les commandes suivantes
+			DELETE FROM ohrm_user WHERE ID IN (2, 3, 4, 5, 6, 7);
+			DELETE FROM ohrm_job_title WHERE ID IN (1, 2, 3, 4);
+			DELETE FROM ohrm_pay_grade WHERE ID IN (1, 2, 3, 4);
 			ALTER TABLE ohrm_user AUTO_INCREMENT = 2;
 			ALTER TABLE ohrm_job_title AUTO_INCREMENT = 1;
 			ALTER TABLE ohrm_pay_grade AUTO_INCREMENT = 1;
@@ -28,6 +31,7 @@
       <class name="formation_CAIt.selenium_webdriver.paygrade.CreerPayGrade"/>
       <class name="formation_CAIt.selenium_webdriver.paygrade.ModifierPayGrade"/>
 	  <class name="formation_CAIt.selenium_webdriver.paygrade.SupprimerPayGrade"/>
+	   <class name="formation_CAIt.selenium_webdriver.Deconnexionclose"/>
 		</classes>
 		
 		

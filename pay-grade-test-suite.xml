@@ -9,7 +9,8 @@
       <class name="formation_CAIt.selenium_webdriver.Connexion"/>
       <class name="formation_CAIt.selenium_webdriver.paygrade.CreerPayGrade"/>
       <class name="formation_CAIt.selenium_webdriver.paygrade.ModifierPayGrade"/>
-	  <class name="formation_CAIt.selenium_webdriver.paygrade.SupprimerPayGrade"/>																																																																																																																																																																																																																																																																																																											      <class name="formation_CAIt.selenium_webdriver.paygrade.SupprimerPayGrade"/>
+	  <class name="formation_CAIt.selenium_webdriver.paygrade.SupprimerPayGrade"/>	
+	   <class name="formation_CAIt.selenium_webdriver.Deconnexionclose"/>																																																																																																																																																																																																																																																																																																										      <class name="formation_CAIt.selenium_webdriver.paygrade.SupprimerPayGrade"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

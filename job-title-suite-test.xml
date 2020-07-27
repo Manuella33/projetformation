@@ -14,6 +14,7 @@
 				name="formation_CAIt.selenium_webdriver.jobtitle.ModifierJobTitle" />
 			<class
 				name="formation_CAIt.selenium_webdriver.jobtitle.SupprimerJobTitle" />
+				 <class name="formation_CAIt.selenium_webdriver.Deconnexionclose"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

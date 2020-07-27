@@ -13,6 +13,7 @@
 				name="formation_CAIt.selenium_webdriver.user.ModifierUser" />
 			<class
 				name="formation_CAIt.selenium_webdriver.user.SupprimerUser" />
+				 <class name="formation_CAIt.selenium_webdriver.Deconnexionclose"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
